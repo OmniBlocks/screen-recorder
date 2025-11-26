@@ -14,7 +14,7 @@ After doing a bunch of research, there is **not a single** completely free alter
 This is a greenfield project, meaning nothing is functional yet. Here's the plan, though
 
 ## Tech Stack
-The project will be built using Electron (I know, it's bulky and whatnot, but I only know React, sorry) and using the (Windows Desktop Duplication API)[https://learn.microsoft.com/en-us/windows/win32/direct3ddxgi/desktop-dup-api] for the highest quality and FPS, and then React for the UI.
+The project will be built using Electron (I know, it's bulky and whatnot, but I only know React, sorry) and using the [Windows Desktop Duplication API](https://learn.microsoft.com/en-us/windows/win32/direct3ddxgi/desktop-dup-api) for the highest quality and FPS, and then React for the UI.
 
 ## Features
 

@@ -82,6 +82,7 @@ jobs:
           "
           
           # Insert the new entry after the START marker
+          # Insert the new entry after the START marker
           awk -v entry="$NEW_ENTRY" '
             /UNRELEASED_COMMITS_START/ { print; print ""; print entry; next }
             { print }

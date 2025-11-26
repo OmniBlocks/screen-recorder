@@ -57,7 +57,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ORG: OmniBlocks                # <-- change if your org has a different name
-          REPO: scratch-gui              # <-- repository name
+          REPO: screen-recorder           # <-- repository name
           PROJECT_NUMBER: 1              # <-- the number you see in the URL /projects/1
         run: |
           STATUS_FILE="project_status_report.txt"
@@ -134,7 +134,7 @@ jobs:
         run: |
           ISSUES_FILE="open_issues_full.json"
           gh issue list \
-            --repo OmniBlocks/scratch-gui \
+            --repo OmniBlocks/screen-recorder \
             --state open \
             --limit 100 \
             --json number,title,body,url \
@@ -161,7 +161,7 @@ jobs:
         run: |
           ISSUES_FILE="open_issues_titles.json"
           gh issue list \
-            --repo OmniBlocks/scratch-gui \
+            --repo OmniBlocks/screen-recorder \
             --state open \
             --limit 100 \
             --json number,title,url \
@@ -698,7 +698,7 @@ jobs:
           # Post a comment with the reporting instructions
           gh issue comment "$ISSUE_NUMBER" --body "Thank you for your security report! 🔐
       
-          To protect our users, we handle security vulnerabilities through private reports. Please submit your findings [here](https://github.com/OmniBlocks/scratch-gui/security/advisories/new)
+          To protect our users, we handle security vulnerabilities through private reports. Please submit your findings [here](
       
           We'll investigate promptly and appreciate your responsible disclosure!
           
