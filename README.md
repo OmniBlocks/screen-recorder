@@ -11,7 +11,7 @@ Focusee has:
 
 After doing a bunch of research, there is **not a single** completely free alternative for Windows, let alone open source. This is what led me to create the OmniBlocks Screen Recorder.
 
-This is a greenfield project, meaning nothing is functional yet. Here's the plan, though
+This is a greenfield project, meaning nothing is functional yet. Here's the plan, though:
 
 ## Tech Stack
 The project will be built using Electron (I know, it's bulky and whatnot, but I only know React, sorry) and using the [Windows Desktop Duplication API](https://learn.microsoft.com/en-us/windows/win32/direct3ddxgi/desktop-dup-api) for the highest quality and FPS, and then React for the UI.
