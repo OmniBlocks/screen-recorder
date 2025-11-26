@@ -26,7 +26,15 @@ The OmniBlocks Screen Recorder will need you to watch an AD per export or pay a 
 
 Ha, scared you there, didn't I? No, OmniBlocks strives to be the opposite of that. We aren't a soulless corporation begging you to feed us your wallet like a stray dog, and we don't shamelessly rip off your privacy limb-to-limb like some manipulative narcissistic wild animal. This will be licensed under the AGPLv3, ensuring it is always open source. 
 
-### The horrific style guide from your darkest nightmares
+## Contributing
 
-Eh just make sure your code works I guess
+Contributions are welcome! Please ensure:
+- Code is tested and functional
+- Commits follow conventional commit format (or project preference)
+- Pull requests include a clear description of changes
+- Formatting/linting passes (add tools/CI details once established)
+
+For major features, please open an issue for discussion first.
+
+### The horrific style guide from your darkest nightmares
 
