@@ -1,0 +1,31 @@
+name: Greetings
+
+on:
+  pull_request:
+    types:
+      - opened
+  issues:
+    types:
+      - opened
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  greeting:
+    name: Greet First-Time Contributors
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/first-interaction@v3
+        with:
+          issue_message: |
+            # Welcome to the OmniBlocks Screen Recorder
+
+            It seems this is your first issue on this repository. To make sure you understand the project thoroughly, make sure to visit the (README)[https://github.com/OmniBlocks/screen-recorder/blob/main/README.md] and the (Code of Conduct)[https://github.com/OmniBlocks/.github/blob/main/CODE_OF_CONDUCT.md].
+            Code on!
+          pr_message: |
+            # Welcome to the OmniBlocks Screen Recorder
+
+            It seems this is your first pull request on this repository. To make sure you understand the project thoroughly, make sure to visit the (README)[https://github.com/OmniBlocks/screen-recorder/blob/main/README.md] and the (Code of Conduct)[https://github.com/OmniBlocks/.github/blob/main/CODE_OF_CONDUCT.md]. Check our (main repository)[github.com/OmniBlocks/scratch-gui] for info on style guides, contribution rules, and more.
